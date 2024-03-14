@@ -1,5 +1,5 @@
 
-package entities;
+package gioelefriggia.entities;
 
 
 public class Product {

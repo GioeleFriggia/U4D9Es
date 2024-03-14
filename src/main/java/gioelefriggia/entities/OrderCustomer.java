@@ -1,6 +1,4 @@
-
-package entities;
-
+package gioelefriggia.entities;
 
 public class OrderCustomer {
     // Attributi della classe OrderCustomer
@@ -13,6 +11,11 @@ public class OrderCustomer {
         this.id = id;
         this.name = name;
         this.tier = tier;
+    }
+
+    // Metodo getter per ottenere il nome del cliente dell'ordine
+    public String getName() {
+        return name;
     }
 
     // Metodo getter per ottenere il livello del cliente dell'ordine

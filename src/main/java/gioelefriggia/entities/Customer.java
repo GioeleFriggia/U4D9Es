@@ -1,4 +1,4 @@
-package entities;
+package gioelefriggia.entities;
 
 // Definizione della classe Customer
 public class Customer {
